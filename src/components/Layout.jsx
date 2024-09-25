@@ -7,6 +7,7 @@ const Layout = ({children}) =>{
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/register">Sign Up</Link>
+                <Link to="/dashboard/users">Dashboard</Link>
             </nav>
             {children}
             <footer className="absolute bottom-0 w-full">
